@@ -5,8 +5,8 @@
     <description>A portfolio</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 03 Mar 2016 22:35:55 -0500</pubDate>
-    <lastBuildDate>Thu, 03 Mar 2016 22:35:55 -0500</lastBuildDate>
+    <pubDate>Fri, 04 Mar 2016 00:33:06 -0500</pubDate>
+    <lastBuildDate>Fri, 04 Mar 2016 00:33:06 -0500</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -122,6 +122,50 @@ if __name__ == &#39;__main__&#39;:
         <guid isPermaLink="true">/blog/2015/08/28/book-style-doc.html</guid>
         
         <category>english</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Birds</title>
+        <description>&lt;h1 id=&quot;three-colors-for-heading-2&quot;&gt;Three Colors for Heading 2&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;/book/assets/img/blog/dessert.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Tamquam ullamcorper consequuntur vim in, clita tritani consulatu te duo. Vel ut ignota petentium contentiones. Sea in assum tantas ubique, ne sit amet eripuit bonorum. At vis fabellas maiestatis, ea nihil ridens nec, utroque appareat convenire id vim. Est virtute epicurei ad.&lt;/p&gt;
+
+&lt;h1 id=&quot;blockquote&quot;&gt;Blockquote&lt;/h1&gt;
+
+&lt;p&gt;Cetero petentium in vim. Ea prodesset complectitur per. Dolor putant platonem eos ei, pertinacia conclusionemque quo ea, percipit consequuntur in vim. Et eos eius utroque consectetuer, in unum posidonium mea. Quod omnes consequuntur et vel, his vocent nominavi eu.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I am a blockquote.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. &lt;/p&gt;
+
+&lt;h1 id=&quot;python-code&quot;&gt;Python Code&lt;/h1&gt;
+
+&lt;p&gt;Nam an perpetua senserit temporibus. Sea velit iisque veritus ea. Pri ut assum partiendo. Eu iuvaret maiorum mea, atqui commune ad eam. Et est phaedrum forensibus, nec et elitr delenit feugait.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;def foo():
+    return &quot;foo&quot;
+
+def main():
+    foo()
+
+if __name__ == &#39;__main__&#39;:
+    main()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Est inani prodesset ex. Eu reque perfecto consulatu vix, omnes concludaturque eum an. Detraxit consequuntur per eu, virtute atomorum voluptatibus mei ei. Tamquam vituperatoribus et vis, quo in copiosae apeirian.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 31 Dec 2010 00:00:00 -0500</pubDate>
+        <link>/blog/2010/12/31/birds.html</link>
+        <guid isPermaLink="true">/blog/2010/12/31/birds.html</guid>
+        
+        <category>art</category>
         
         
         <category>blog</category>
