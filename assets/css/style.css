@@ -628,3 +628,10 @@ img {
   }
 }
 
+.grid-table {
+    width: 100%;
+    text-align: center;
+    vertical-align: center;
+    padding: 15px;
+    min-height: 500px;
+}

@@ -5,56 +5,55 @@
     <description>A portfolio</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 04 Mar 2016 19:53:54 -0500</pubDate>
-    <lastBuildDate>Fri, 04 Mar 2016 19:53:54 -0500</lastBuildDate>
+    <pubDate>Tue, 29 Mar 2016 19:02:36 -0400</pubDate>
+    <lastBuildDate>Tue, 29 Mar 2016 19:02:36 -0400</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
-        <title>A Jekyll Theme Named Book</title>
-        <description>&lt;p&gt;Simple is better, but many themes are over designed. So, &lt;a href=&quot;https://github.com/kkninjae/book&quot;&gt;Book&lt;/a&gt; is built.&lt;/p&gt;
+        <title>The Croissant Series Part 2 ~ Starbucks</title>
+        <description>&lt;h1 id=&quot;starbucks&quot;&gt;Starbucks&lt;/h1&gt;
 
-&lt;h2 id=&quot;get-started&quot;&gt;Get started&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;This is part of a multi-part review series, read the motivation &lt;a href=&quot;abp-intro.html&quot;&gt;here&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;fork the &lt;a href=&quot;https://github.com/kkninjae/book/fork&quot;&gt;repo&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;clone &lt;code&gt;git clone https://github.com/username/book&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;run &lt;code&gt;jekyll serve -w&lt;/code&gt;&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;I chose to go to Starbucks today after dropping into the Peets in the Capital One Cafe and discovering that they did not stock Chocolate Croissants this week. They did have a strange looking square almond croissant and a pecan sticky bun that didn’t look quite as good as Flour’s, but still pretty good (an aside, Flour has also sold out of sticky buns the last two times I went =_=). However, I was bent on having my weekly chocolate croissant so I opted to go around the corner and look in Starbucks. I have had Starbucks’ chocolate croissants before, but not in the Harvard Square location. &lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://localhost:4000&quot;&gt;http://localhost:4000&lt;/a&gt; should be ready.&lt;/p&gt;
-
-&lt;h2 id=&quot;customize&quot;&gt;Customize&lt;/h2&gt;
-
-&lt;h3 id=&quot;configyml-file&quot;&gt;_config.yml file&lt;/h3&gt;
-
+&lt;p&gt;I asked for it to be warmed up. My impressions of the croissant were:&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;title: site name&lt;/li&gt;
-  &lt;li&gt;description: site description&lt;/li&gt;
-  &lt;li&gt;url: site url&lt;/li&gt;
-  &lt;li&gt;avatar: absolute path of avatar which is a picture (140px * 140px) on the index page.&lt;/li&gt;
-  &lt;li&gt;favicon: absolute path of site favicon&lt;/li&gt;
-  &lt;li&gt;google_analytics: id for google analystics&lt;/li&gt;
-  &lt;li&gt;disqus_shortname: shortname of disque comment system&lt;/li&gt;
-  &lt;li&gt;about: content on the about page.
-you can write more than one paragraph but the format should be like the original one.
-the special word &lt;code&gt;?link?&lt;/code&gt; will be replaced by one of the links which are listed under links.&lt;/li&gt;
+&lt;li&gt; More expensive &lt;/li&gt;
+&lt;li&gt;Noticeably smaller &lt;/li&gt;
+&lt;li&gt; Filling was not centered &lt;/li&gt;
+&lt;li&gt;Pastry didn&#39;t look browned enough / not enough egg wash used before bake &lt;/li&gt;
+&lt;li&gt; Sunken in the middle &lt;/li&gt;
+&lt;li&gt; No embellishments (icing sugar or syrup :c)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;warning&quot;&gt;warning&lt;/h3&gt;
+&lt;p&gt;
+Basically inferior to its ABP equivalent in every way, so the hunt continues :/
+&lt;/p&gt;
 
-&lt;p&gt;Please do not delete the first two lines of style.css file.&lt;/p&gt;
+&lt;p&gt;Priced at $2.75 before tax, the Starbucks chocolate croissant is 12% more expensive than ABP’s. It is also less than 70% of the size of an ABP croissant. What a travesty :( Even the picture looks sad (&lt;a href=&quot;http://www.starbucks.com/menu/food/bakery/chocolate-croissant&quot;&gt;source&lt;/a&gt;):&lt;/p&gt;
 
-&lt;h2 id=&quot;end&quot;&gt;End.&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/starbucks_pac.jpg&quot; alt=&quot;Starbucks chocolate croissant&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;If you like it, &lt;a href=&quot;https://github.com/kkninjae/book&quot;&gt;star&lt;/a&gt; it :).&lt;/p&gt;
+&lt;h2 id=&quot;chocolate-croissant-80g&quot;&gt;Chocolate Croissant 80g&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;Calories 300&lt;/code&gt; 
+&lt;br /&gt;&lt;code&gt;Calories from Fat 160&lt;/code&gt;
+&lt;br /&gt;&lt;code&gt;Total Fat 17g&lt;/code&gt; 
+&lt;br /&gt;&lt;code&gt;Saturated Fat 10g&lt;/code&gt; 
+&lt;br /&gt;&lt;code&gt;Trans Fat 0.5g&lt;/code&gt; 
+&lt;br /&gt;&lt;code&gt;Cholesterol 30mg&lt;/code&gt; 
+&lt;br /&gt;&lt;code&gt;Sodium 220mg&lt;/code&gt; 
+&lt;br /&gt;&lt;code&gt;Total Carbohydrate 34g&lt;/code&gt; 
+&lt;br /&gt;&lt;code&gt;Dietary Fiber 2g&lt;/code&gt; 
+&lt;br /&gt;&lt;code&gt;Sugars 10g&lt;/code&gt; 
+&lt;br /&gt;&lt;code&gt;Protein 5g&lt;/code&gt;   &lt;/p&gt;
 
-&lt;p&gt;If you have a problem, &lt;a href=&quot;https://github.com/kkninjae/book/issues&quot;&gt;github issue is ready&lt;/a&gt;.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 28 Aug 2015 00:00:00 -0400</pubDate>
-        <link>/blog/2015/08/28/jekyll-theme-book.html</link>
-        <guid isPermaLink="true">/blog/2015/08/28/jekyll-theme-book.html</guid>
+        <pubDate>Tue, 29 Mar 2016 00:00:00 -0400</pubDate>
+        <link>/blog/2016/03/29/abp-starbucks.html</link>
+        <guid isPermaLink="true">/blog/2016/03/29/abp-starbucks.html</guid>
         
-        <category>english</category>
+        <category>croissants</category>
         
         
         <category>blog</category>
@@ -62,110 +61,50 @@ the special word &lt;code&gt;?link?&lt;/code&gt; will be replaced by one of the 
       </item>
     
       <item>
-        <title>Book Style</title>
-        <description>&lt;h1 id=&quot;three-colors-for-heading-2&quot;&gt;Three Colors for Heading 2&lt;/h1&gt;
+        <title>The Croissant Series Part 1 ~ Introduction, ABP</title>
+        <description>&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
 
-&lt;h2 id=&quot;rabbit&quot;&gt;rabbit&lt;/h2&gt;
-
-&lt;p&gt;Audiam scripta sanctus ea has, sea ullum periculis repudiare ea. Accusata dissentiet sit id, euismod consequuntur sed in, etiam malorum vivendum no usu. Nec cu habeo equidem interpretaris, dicam quidam eu vix. Eu ius iuvaret oportere.&lt;/p&gt;
-
-&lt;p&gt;Ea partem virtute nusquam eum, sea minim referrentur in. Vidit consectetuer nam ex. Tempor blandit theophrastus an vel, fastidii incorrupte cum cu, in sint legendos pertinacia mei. Duo eius erat affert te, ad vel diceret posidonium, ne vel praesent persecuti definitiones. Ad pro mutat decore, sit nonumy consul nostrum ei.&lt;/p&gt;
-
-&lt;h2 id=&quot;cat&quot;&gt;cat&lt;/h2&gt;
-
-&lt;p&gt;Te sea melius legendos, nobis prodesset cum ei. Consulatu accommodare sit ne. Duo lorem accumsan moderatius an, id has sensibus praesent patrioque. Eu usu scaevola scripserit, clita altera pri cu.&lt;/p&gt;
-
-&lt;p&gt;Virtute constituto theophrastus ad eum, vis at stet salutandi. Te utamur sanctus perfecto usu, congue dissentiunt ei ius, cu eam probatus assentior. Cu omnis legere est, et vidit corrumpit mei, stet illum mundi mea in. Ei ius partem eligendi. Sumo utinam et sea, an ullum ludus eum, eos novum repudiare deseruisse eu.&lt;/p&gt;
-
-&lt;h2 id=&quot;dog&quot;&gt;dog&lt;/h2&gt;
-
-&lt;p&gt;Vis nullam dissentiet ei, mea nihil accumsan perfecto ex, agam melius et usu. Vix reque aperiri instructior cu, nec ad admodum copiosae. Nobis appetere persequeris eos cu, luptatum sapientem facilisis te nam. Mazim philosophia ut est, no insolens assueverit has, cu velit feugiat molestie eam.&lt;/p&gt;
-
-&lt;p&gt;Cu dictas perpetua mel, volumus evertitur at vis. Quo case errem senserit in. Ex usu facer feugait evertitur, nam te veri vivendum, vim cu elit omnes menandri. Inermis interesset quaerendum sea at, vidit appetere reformidans duo ei. Cu usu perpetua principes. At etiam homero mel, usu platonem forensibus an.&lt;/p&gt;
-
-&lt;h2 id=&quot;lion&quot;&gt;lion&lt;/h2&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/book/assets/img/blog/dessert.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Tamquam ullamcorper consequuntur vim in, clita tritani consulatu te duo. Vel ut ignota petentium contentiones. Sea in assum tantas ubique, ne sit amet eripuit bonorum. At vis fabellas maiestatis, ea nihil ridens nec, utroque appareat convenire id vim. Est virtute epicurei ad.&lt;/p&gt;
-
-&lt;h1 id=&quot;blockquote&quot;&gt;Blockquote&lt;/h1&gt;
-
-&lt;p&gt;Cetero petentium in vim. Ea prodesset complectitur per. Dolor putant platonem eos ei, pertinacia conclusionemque quo ea, percipit consequuntur in vim. Et eos eius utroque consectetuer, in unum posidonium mea. Quod omnes consequuntur et vel, his vocent nominavi eu.&lt;/p&gt;
+&lt;p&gt;Two days ago, I was passing through Harvard Square on my way back to Quincy when I walked by ABP next to the Smith Center. To my horror, there was a sign taped on the door:&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;I am a blockquote.&lt;/p&gt;
+  &lt;p&gt;“This location is closing
+&lt;br /&gt;Thursday March 31st
+&lt;br /&gt;Thank you for 32 great years”&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. &lt;/p&gt;
+&lt;p&gt;We knew it was coming with the construction going on in the Smith/Holyoke Center, but I was secretly hoping that ABP would be spared an eviction until at least after I graduated. &lt;/p&gt;
 
-&lt;h1 id=&quot;python-code&quot;&gt;Python Code&lt;/h1&gt;
+&lt;p&gt;The reason for this is centered around one very special pastry close to my heart: The Chocolate Croissant.&lt;/p&gt;
 
-&lt;p&gt;Nam an perpetua senserit temporibus. Sea velit iisque veritus ea. Pri ut assum partiendo. Eu iuvaret maiorum mea, atqui commune ad eam. Et est phaedrum forensibus, nec et elitr delenit feugait.&lt;/p&gt;
+&lt;p&gt;Technically, what ABP labels as its Chocolate Croissant is actually a Pain au Chocolate, since it is not of the crescent shaped-variety. Naming aside though, with its generous sizing, perfect flakiness, and beautifully presented icing sugar and syrup decor, at $2.35 it was the best deal for such chocolatey goodness in the Square. &lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;def foo():
-    return &quot;foo&quot;
+&lt;p&gt;Every Monday after classes, I would make it a point to drop into ABP and order this perfection-in-a-pastry, alongside a $1.99 latte (also generously priced!). However, this week, I knew it would be my last. Lo and behold, when I entered to get my weekly croissant, I was dismayed to find that it was not stocked at all :( I attributed this to less stock as the store wound down for its final day.&lt;/p&gt;
 
-def main():
-    foo()
+&lt;p&gt;This series is dedicated to the most value chocolate croissant in Harvard Square and my search for a replacement. I hope that ABP will be able to find a new location in the Square to continue its 32 year service to poor college students who appreciate non-compromised baked goods for a reasonable price.  &lt;/p&gt;
 
-if __name__ == &#39;__main__&#39;:
-    main()
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;For your information, here is the nutritional information about the ABP chocolate croissant (&lt;a href=&quot;http://aubonpain.com/menu/chocolate-croissant-0&quot;&gt;source&lt;/a&gt;).&lt;/p&gt;
 
-&lt;p&gt;Est inani prodesset ex. Eu reque perfecto consulatu vix, omnes concludaturque eum an. Detraxit consequuntur per eu, virtute atomorum voluptatibus mei ei. Tamquam vituperatoribus et vis, quo in copiosae apeirian.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/abp_pac.jpg&quot; alt=&quot;ABP&#39;s chocolate croissant!&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;pain-au-chocolat--38-oz-115g&quot;&gt;Pain au Chocolat / 3.8 oz (115g)&lt;/h2&gt;
+
+&lt;p&gt;&lt;code&gt;Calories    480&lt;/code&gt;
+&lt;br /&gt; &lt;code&gt;Calories from Fat   220&lt;/code&gt; 
+&lt;br /&gt; &lt;code&gt;Total Fat   25g&lt;/code&gt; 
+&lt;br /&gt; &lt;code&gt;Saturated Fat   16g&lt;/code&gt; 
+&lt;br /&gt; &lt;code&gt;Trans Fat   0g&lt;/code&gt; 
+&lt;br /&gt; &lt;code&gt;Cholesterol 75mg&lt;/code&gt; 
+&lt;br /&gt;&lt;code&gt;Sodium  370mg&lt;/code&gt; 
+&lt;br /&gt;&lt;code&gt;Total Carbohydrate  57g&lt;/code&gt; 
+&lt;br /&gt;&lt;code&gt;Dietary Fiber   3g&lt;/code&gt; 
+&lt;br /&gt;&lt;code&gt;Sugars  25g&lt;/code&gt; 
+&lt;br /&gt;&lt;code&gt;Protein 8g&lt;/code&gt; &lt;/p&gt;
 </description>
-        <pubDate>Fri, 28 Aug 2015 00:00:00 -0400</pubDate>
-        <link>/blog/2015/08/28/book-style-doc.html</link>
-        <guid isPermaLink="true">/blog/2015/08/28/book-style-doc.html</guid>
+        <pubDate>Tue, 29 Mar 2016 00:00:00 -0400</pubDate>
+        <link>/blog/2016/03/29/abp-intro.html</link>
+        <guid isPermaLink="true">/blog/2016/03/29/abp-intro.html</guid>
         
-        <category>english</category>
-        
-        
-        <category>blog</category>
-        
-      </item>
-    
-      <item>
-        <title>Birds</title>
-        <description>&lt;h1 id=&quot;three-colors-for-heading-2&quot;&gt;Three Colors for Heading 2&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&quot;/book/assets/img/blog/dessert.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Tamquam ullamcorper consequuntur vim in, clita tritani consulatu te duo. Vel ut ignota petentium contentiones. Sea in assum tantas ubique, ne sit amet eripuit bonorum. At vis fabellas maiestatis, ea nihil ridens nec, utroque appareat convenire id vim. Est virtute epicurei ad.&lt;/p&gt;
-
-&lt;h1 id=&quot;blockquote&quot;&gt;Blockquote&lt;/h1&gt;
-
-&lt;p&gt;Cetero petentium in vim. Ea prodesset complectitur per. Dolor putant platonem eos ei, pertinacia conclusionemque quo ea, percipit consequuntur in vim. Et eos eius utroque consectetuer, in unum posidonium mea. Quod omnes consequuntur et vel, his vocent nominavi eu.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;I am a blockquote.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. &lt;/p&gt;
-
-&lt;h1 id=&quot;python-code&quot;&gt;Python Code&lt;/h1&gt;
-
-&lt;p&gt;Nam an perpetua senserit temporibus. Sea velit iisque veritus ea. Pri ut assum partiendo. Eu iuvaret maiorum mea, atqui commune ad eam. Et est phaedrum forensibus, nec et elitr delenit feugait.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;def foo():
-    return &quot;foo&quot;
-
-def main():
-    foo()
-
-if __name__ == &#39;__main__&#39;:
-    main()
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Est inani prodesset ex. Eu reque perfecto consulatu vix, omnes concludaturque eum an. Detraxit consequuntur per eu, virtute atomorum voluptatibus mei ei. Tamquam vituperatoribus et vis, quo in copiosae apeirian.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 31 Dec 2010 00:00:00 -0500</pubDate>
-        <link>/blog/2010/12/31/birds.html</link>
-        <guid isPermaLink="true">/blog/2010/12/31/birds.html</guid>
-        
-        <category>art</category>
+        <category>croissants</category>
         
         
         <category>blog</category>
