@@ -3,12 +3,12 @@
   <channel>
     <title>Winnie Wu</title>
     <description>A portfolio</description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 02 Apr 2016 20:10:55 -0400</pubDate>
-    <lastBuildDate>Sat, 02 Apr 2016 20:10:55 -0400</lastBuildDate>
-    <generator>Jekyll v2.4.0</generator>
-    
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 15 Apr 2018 14:42:07 -0700</pubDate>
+    <lastBuildDate>Sun, 15 Apr 2018 14:42:07 -0700</lastBuildDate>
+    <generator>Jekyll v3.7.3</generator>
+
       <item>
         <title>The Croissant Series Part 3 ~ Peets</title>
         <description>&lt;h1 id=&quot;starbucks&quot;&gt;Starbucks&lt;/h1&gt;
@@ -28,62 +28,62 @@
 
 &lt;p&gt;This afternoon, I popped into Peet’s to see if they stocked chocolate croissants after being unsuccessful at Crema (by the way, Crema’s website clearly prices their chocolate croissants at $3.15, which implies that they are stocked at least sometimes. I’ll have to check back again later I guess).&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/peets_pac.jpg&quot; alt=&quot;Peets chocolate croissant&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/img/posts/peets_pac.jpg&quot; alt=&quot;Peets chocolate croissant&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Even on the shelf, the croissant looked a loooot smaller (even smaller than Starbucks’). At least, labelled at $2.45, it was cheaper. Still, given that ABP’s croissant is 55% bigger than Peet’s, I wasn’t impressed. At the register, the price of the chocolate croissant actually came to $2.35, which was better for me but also somewhat confusing. I guess it’s a better 1:1 comparison with ABP’s though, since they were the same price in reality.&lt;/p&gt;
 
 &lt;p&gt;My impressions of the croissant were:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt; Tiny &lt;/li&gt;
-&lt;li&gt; Filling to &#39;pastry&#39; (in quotation marks because of my next point) ratio was disappointing &lt;/li&gt;
-&lt;li&gt; &#39;Pastry&#39; was not actually pastry. Croissants are denoted by their use of puff pastry (otherwise it&#39;s not really a croissant). This object was decidedly more bready than pastry-like. It was definitely springier than it was flaky, as you can probably tell from the photos below...&lt;/li&gt;
+&lt;li&gt; Filling to 'pastry' (in quotation marks because of my next point) ratio was disappointing &lt;/li&gt;
+&lt;li&gt; 'Pastry' was not actually pastry. Croissants are denoted by their use of puff pastry (otherwise it's not really a croissant). This object was decidedly more bready than pastry-like. It was definitely springier than it was flaky, as you can probably tell from the photos below...&lt;/li&gt;
 &lt;li&gt; No embellishments (icing sugar or syrup :c)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/peets_pac2.jpg&quot; alt=&quot;Peets chocolate croissant&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/img/posts/peets_pac2.jpg&quot; alt=&quot;Peets chocolate croissant&quot; /&gt;
 Look how bready the inside of this ‘croissant’ is ._.&lt;/p&gt;
 
 &lt;p&gt;Nutritional info from &lt;a href=&quot;http://www.peets.com/media/wysiwyg/abg-nutritional-boston.pdf&quot;&gt;source&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;chocolate-croissant-74g&quot;&gt;Chocolate Croissant 74g&lt;/h2&gt;
-&lt;p&gt;&lt;code&gt;Calories 312&lt;/code&gt;
-&lt;br /&gt;&lt;code&gt;Calories from Fat 156g&lt;/code&gt;
-&lt;br /&gt;&lt;code&gt;Total Fat 17g&lt;/code&gt; 
-&lt;br /&gt;&lt;code&gt;Saturated Fat 10g&lt;/code&gt;
-&lt;br /&gt;&lt;code&gt;Trans Fat 0g&lt;/code&gt;
-&lt;br /&gt;&lt;code&gt;Cholesterol 33mg&lt;/code&gt;
-&lt;br /&gt;&lt;code&gt;Sodium 312mg&lt;/code&gt;
-&lt;br /&gt;&lt;code&gt;Total Carbohydrate 35g&lt;/code&gt;
-&lt;br /&gt;&lt;code&gt;Dietary Fiber 0g&lt;/code&gt;
-&lt;br /&gt;&lt;code&gt;Sugars 10g&lt;/code&gt;
-&lt;br /&gt;&lt;code&gt;Protein 5g&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Calories 312&lt;/code&gt;
+&lt;br /&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Calories from Fat 156g&lt;/code&gt;
+&lt;br /&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Total Fat 17g&lt;/code&gt;
+&lt;br /&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Saturated Fat 10g&lt;/code&gt;
+&lt;br /&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Trans Fat 0g&lt;/code&gt;
+&lt;br /&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Cholesterol 33mg&lt;/code&gt;
+&lt;br /&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Sodium 312mg&lt;/code&gt;
+&lt;br /&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Total Carbohydrate 35g&lt;/code&gt;
+&lt;br /&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Dietary Fiber 0g&lt;/code&gt;
+&lt;br /&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Sugars 10g&lt;/code&gt;
+&lt;br /&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Protein 5g&lt;/code&gt;&lt;/p&gt;
 
 </description>
-        <pubDate>Sat, 02 Apr 2016 00:00:00 -0400</pubDate>
-        <link>/blog/2016/04/02/abp-peets.html</link>
-        <guid isPermaLink="true">/blog/2016/04/02/abp-peets.html</guid>
-        
+        <pubDate>Sat, 02 Apr 2016 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/blog/2016/04/02/abp-peets.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2016/04/02/abp-peets.html</guid>
+
         <category>croissants</category>
-        
-        
+
+
         <category>blog</category>
-        
+
       </item>
-    
+
       <item>
         <title>The Croissant Series Part 2 ~ Starbucks</title>
         <description>&lt;h1 id=&quot;starbucks&quot;&gt;Starbucks&lt;/h1&gt;
 
 &lt;p&gt;&lt;em&gt;This is part of a multi-part review series, read the motivation &lt;a href=&quot;abp-intro.html&quot;&gt;here&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;I chose to go to Starbucks today after dropping into the Peets in the Capital One Cafe and discovering that they did not stock Chocolate Croissants this week. They did have a strange looking square almond croissant and a pecan sticky bun that didn’t look quite as good as Flour’s, but still pretty good (an aside, Flour has also sold out of sticky buns the last two times I went =_=). However, I was bent on having my weekly chocolate croissant so I opted to go around the corner and look in Starbucks. I have had Starbucks’ chocolate croissants before, but not in the Harvard Square location. &lt;/p&gt;
+&lt;p&gt;I chose to go to Starbucks today after dropping into the Peets in the Capital One Cafe and discovering that they did not stock Chocolate Croissants this week. They did have a strange looking square almond croissant and a pecan sticky bun that didn’t look quite as good as Flour’s, but still pretty good (an aside, Flour has also sold out of sticky buns the last two times I went =_=). However, I was bent on having my weekly chocolate croissant so I opted to go around the corner and look in Starbucks. I have had Starbucks’ chocolate croissants before, but not in the Harvard Square location.&lt;/p&gt;
 
 &lt;p&gt;I asked for it to be warmed up. My impressions of the croissant were:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt; More expensive &lt;/li&gt;
 &lt;li&gt;Noticeably smaller &lt;/li&gt;
 &lt;li&gt; Filling was not centered &lt;/li&gt;
-&lt;li&gt;Pastry didn&#39;t look browned enough / not enough egg wash used before bake &lt;/li&gt;
+&lt;li&gt;Pastry didn't look browned enough / not enough egg wash used before bake &lt;/li&gt;
 &lt;li&gt; Sunken in the middle &lt;/li&gt;
 &lt;li&gt; No embellishments (icing sugar or syrup :c)&lt;/li&gt;
 &lt;/ul&gt;
@@ -94,33 +94,33 @@ Basically inferior to its ABP equivalent in every way, so the hunt continues :/
 
 &lt;p&gt;Priced at $2.75 before tax, the Starbucks chocolate croissant is 12% more expensive than ABP’s. It is also less than 70% of the size of an ABP croissant. What a travesty :( Even the picture looks sad (&lt;a href=&quot;http://www.starbucks.com/menu/food/bakery/chocolate-croissant&quot;&gt;source&lt;/a&gt;):&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/starbucks_pac.jpg&quot; alt=&quot;Starbucks chocolate croissant&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/img/posts/starbucks_pac.jpg&quot; alt=&quot;Starbucks chocolate croissant&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;chocolate-croissant-80g&quot;&gt;Chocolate Croissant 80g&lt;/h2&gt;
-&lt;p&gt;&lt;code&gt;Calories 300&lt;/code&gt; 
-&lt;br /&gt;&lt;code&gt;Calories from Fat 160&lt;/code&gt;
-&lt;br /&gt;&lt;code&gt;Total Fat 17g&lt;/code&gt; 
-&lt;br /&gt;&lt;code&gt;Saturated Fat 10g&lt;/code&gt; 
-&lt;br /&gt;&lt;code&gt;Trans Fat 0.5g&lt;/code&gt; 
-&lt;br /&gt;&lt;code&gt;Cholesterol 30mg&lt;/code&gt; 
-&lt;br /&gt;&lt;code&gt;Sodium 220mg&lt;/code&gt; 
-&lt;br /&gt;&lt;code&gt;Total Carbohydrate 34g&lt;/code&gt; 
-&lt;br /&gt;&lt;code&gt;Dietary Fiber 2g&lt;/code&gt; 
-&lt;br /&gt;&lt;code&gt;Sugars 10g&lt;/code&gt; 
-&lt;br /&gt;&lt;code&gt;Protein 5g&lt;/code&gt;   &lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Calories 300&lt;/code&gt;
+&lt;br /&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Calories from Fat 160&lt;/code&gt;
+&lt;br /&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Total Fat 17g&lt;/code&gt;
+&lt;br /&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Saturated Fat 10g&lt;/code&gt;
+&lt;br /&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Trans Fat 0.5g&lt;/code&gt;
+&lt;br /&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Cholesterol 30mg&lt;/code&gt;
+&lt;br /&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Sodium 220mg&lt;/code&gt;
+&lt;br /&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Total Carbohydrate 34g&lt;/code&gt;
+&lt;br /&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Dietary Fiber 2g&lt;/code&gt;
+&lt;br /&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Sugars 10g&lt;/code&gt;
+&lt;br /&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Protein 5g&lt;/code&gt;&lt;/p&gt;
 
 </description>
-        <pubDate>Tue, 29 Mar 2016 00:00:00 -0400</pubDate>
-        <link>/blog/2016/03/29/abp-starbucks.html</link>
-        <guid isPermaLink="true">/blog/2016/03/29/abp-starbucks.html</guid>
-        
+        <pubDate>Tue, 29 Mar 2016 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/blog/2016/03/29/abp-starbucks.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2016/03/29/abp-starbucks.html</guid>
+
         <category>croissants</category>
-        
-        
+
+
         <category>blog</category>
-        
+
       </item>
-    
+
       <item>
         <title>The Croissant Series Part 1 ~ Introduction, ABP</title>
         <description>&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
@@ -133,44 +133,44 @@ Basically inferior to its ABP equivalent in every way, so the hunt continues :/
 &lt;br /&gt;Thank you for 32 great years”&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;We knew it was coming with the construction going on in the Smith/Holyoke Center, but I was secretly hoping that ABP would be spared an eviction until at least after I graduated. &lt;/p&gt;
+&lt;p&gt;We knew it was coming with the construction going on in the Smith/Holyoke Center, but I was secretly hoping that ABP would be spared an eviction until at least after I graduated.&lt;/p&gt;
 
 &lt;p&gt;The reason for this is centered around one very special pastry close to my heart: The Chocolate Croissant.&lt;/p&gt;
 
-&lt;p&gt;Technically, what ABP labels as its Chocolate Croissant is actually a Pain au Chocolate, since it is not of the crescent shaped-variety. Naming aside though, with its generous sizing, perfect flakiness, and beautifully presented icing sugar and syrup decor, at $2.35 it was the best deal for such chocolatey goodness in the Square. &lt;/p&gt;
+&lt;p&gt;Technically, what ABP labels as its Chocolate Croissant is actually a Pain au Chocolate, since it is not of the crescent shaped-variety. Naming aside though, with its generous sizing, perfect flakiness, and beautifully presented icing sugar and syrup decor, at $2.35 it was the best deal for such chocolatey goodness in the Square.&lt;/p&gt;
 
 &lt;p&gt;Every Monday after classes, I would make it a point to drop into ABP and order this perfection-in-a-pastry, alongside a $1.99 latte (also generously priced!). However, this week, I knew it would be my last. Lo and behold, when I entered to get my weekly croissant, I was dismayed to find that it was not stocked at all :( I attributed this to less stock as the store wound down for its final day.&lt;/p&gt;
 
-&lt;p&gt;This series is dedicated to the most value chocolate croissant in Harvard Square and my search for a replacement. I hope that ABP will be able to find a new location in the Square to continue its 32 year service to poor college students who appreciate non-compromised baked goods for a reasonable price.  &lt;/p&gt;
+&lt;p&gt;This series is dedicated to the most value chocolate croissant in Harvard Square and my search for a replacement. I hope that ABP will be able to find a new location in the Square to continue its 32 year service to poor college students who appreciate non-compromised baked goods for a reasonable price.&lt;/p&gt;
 
 &lt;p&gt;For your information, here is the nutritional information about the ABP chocolate croissant (&lt;a href=&quot;http://aubonpain.com/menu/chocolate-croissant-0&quot;&gt;source&lt;/a&gt;).&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/abp_pac.jpg&quot; alt=&quot;ABP&#39;s chocolate croissant!&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/img/posts/abp_pac.jpg&quot; alt=&quot;ABP's chocolate croissant!&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;pain-au-chocolat--38-oz-115g&quot;&gt;Pain au Chocolat / 3.8 oz (115g)&lt;/h2&gt;
 
-&lt;p&gt;&lt;code&gt;Calories    480&lt;/code&gt;
-&lt;br /&gt; &lt;code&gt;Calories from Fat   220&lt;/code&gt; 
-&lt;br /&gt; &lt;code&gt;Total Fat   25g&lt;/code&gt; 
-&lt;br /&gt; &lt;code&gt;Saturated Fat   16g&lt;/code&gt; 
-&lt;br /&gt; &lt;code&gt;Trans Fat   0g&lt;/code&gt; 
-&lt;br /&gt; &lt;code&gt;Cholesterol 75mg&lt;/code&gt; 
-&lt;br /&gt;&lt;code&gt;Sodium  370mg&lt;/code&gt; 
-&lt;br /&gt;&lt;code&gt;Total Carbohydrate  57g&lt;/code&gt; 
-&lt;br /&gt;&lt;code&gt;Dietary Fiber   3g&lt;/code&gt; 
-&lt;br /&gt;&lt;code&gt;Sugars  25g&lt;/code&gt; 
-&lt;br /&gt;&lt;code&gt;Protein 8g&lt;/code&gt; &lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Calories    480&lt;/code&gt;
+&lt;br /&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;Calories from Fat   220&lt;/code&gt;
+&lt;br /&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;Total Fat   25g&lt;/code&gt;
+&lt;br /&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;Saturated Fat   16g&lt;/code&gt;
+&lt;br /&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;Trans Fat   0g&lt;/code&gt;
+&lt;br /&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;Cholesterol 75mg&lt;/code&gt;
+&lt;br /&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Sodium  370mg&lt;/code&gt;
+&lt;br /&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Total Carbohydrate  57g&lt;/code&gt;
+&lt;br /&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Dietary Fiber   3g&lt;/code&gt;
+&lt;br /&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Sugars  25g&lt;/code&gt;
+&lt;br /&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Protein 8g&lt;/code&gt;&lt;/p&gt;
 </description>
-        <pubDate>Tue, 29 Mar 2016 00:00:00 -0400</pubDate>
-        <link>/blog/2016/03/29/abp-intro.html</link>
-        <guid isPermaLink="true">/blog/2016/03/29/abp-intro.html</guid>
-        
+        <pubDate>Tue, 29 Mar 2016 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/blog/2016/03/29/abp-intro.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2016/03/29/abp-intro.html</guid>
+
         <category>croissants</category>
-        
-        
+
+
         <category>blog</category>
-        
+
       </item>
-    
+
   </channel>
 </rss>

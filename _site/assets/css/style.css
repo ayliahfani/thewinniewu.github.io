@@ -14,7 +14,7 @@ body {
   height: 100%;
   width: 100%;
   font-size: 14px;
-  font-family: "Titillium Web", sans-serif;
+  font-family: 'Inconsolata', monospace;
 }
 
 blockquote {
@@ -50,6 +50,7 @@ code {
 
 h1 {
   font-size: 18px;
+  font-family: 'Merriweather', serif;
 }
 
 h2,
@@ -58,6 +59,7 @@ h4,
 h5,
 h6 {
   font-size: 16px;
+  font-family: 'Merriweather', serif;
 }
 
 img {
@@ -68,7 +70,7 @@ img {
 
 .pnf-404-wrapper {
   position: absolute;
-  top:30%; 
+  top:30%;
   left: 0;
   padding: 12px 12px;
   height: 64px;
@@ -76,7 +78,7 @@ img {
   width: 100%;
   text-align: center;
 }
- 
+
 .footer {
   position: absolute;
   bottom: 0;
@@ -137,14 +139,12 @@ img {
 .page-container {
   position: relative;
   padding-top: 55px;
-  font-family: "Titillium Web", sans-serif;
   letter-spacing: .09em;
 }
 
 .page-container-content {
   position: relative;
   padding-top: 55px;
-  font-family: "Titillium Web", sans-serif;
   letter-spacing: .09em;
   overflow-y: scroll;
 }
@@ -165,9 +165,9 @@ img {
 .avatar {
   content: "";
   position: absolute;
-  top: -55px;
-  left:0;
-  right:0;
+  top: 30px;
+  left: 0;
+  right: 0;
   margin-left:auto;
   margin-right:auto;
   border: 5px solid #fff;
@@ -183,7 +183,7 @@ img {
   .page-container {
     padding-top: 75px;
   }
-  
+
   .page-container:before {
     top: -75px;
     width: 200px;
@@ -191,12 +191,10 @@ img {
   }
 
   .avatar {
-    top: -120px;
-    width: 230px;
-    height: 230px;
+    width: 200px;
+    height: 200px;
   }
-
-  }
+}
 
 @media (min-width: 769px) {
   .page-container {
@@ -208,7 +206,7 @@ img {
     min-width: 384.5px;
     background-color: #fff;
   }
-  
+
   .page-container-content {
     position: absolute;
     height: 90%;
@@ -231,7 +229,6 @@ img {
 
 
   .avatar {
-    top: 150px;
     left: -100px;
     margin-right: 0;
     margin-left: 0;
@@ -533,7 +530,7 @@ img {
 }
 
 .english {
-  font-family: "Titillium Web", sans-serif;
+  font-family: 'Inconsolata', monospace;
   line-height: 21px;
 }
 
@@ -546,22 +543,36 @@ img {
  * specific page
  * ======================= */
 /* index */
-.index-wrapper {
-  padding-top: 15%;
-  text-align: center;
+.index-title {
+  margin-top: 80px;
+  margin-left: 140px;
 }
 
-@media (min-width: 769px) {
-  .index-wrapper {
-    position: absolute;
-    top: 40%;
-    right: 0;
-    left: 0;
-    margin-right: auto;
-    margin-left: auto;
-    padding-top: 0;
+.index-title h1 {
+  font-size: 36px;
+  margin-bottom: 0;
+}
+
+.index-social {
+  margin-top: 16px;
+}
+
+.index-content {
+  margin: 50px 140px;
+}
+
+@media (max-width: 768px) {
+  .avatar {
+    top: -100px;
   }
 }
+
+@media (max-width: 600px) {
+  .avatar {
+    top: -70px;
+  }
+}
+
 
 /* navigation */
 .nav-wrapper {
