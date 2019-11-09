@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <!-- head -->
     <meta charset="utf-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -22,7 +22,7 @@
 
 
     <!-- fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&display=swap" rel="stylesheet">
 
     <!-- stylesheet -->
     <link rel="stylesheet" href="/assets/css/solarized_dark.css" />
@@ -34,35 +34,26 @@
     <script>hljs.initHighlightingOnLoad();</script>
     <script src="/assets/js/script.js"></script>
 
-    
-  </head>
-  <body>
 
-    <div class="footer-clear page-wrapper">
-    <div class="page-container">
-    <div class="avatar"> </div> 
-
-    <div class="index-wrapper">
-  <h1>Hi, I'm Winnie c:</h1>
-  <a class="link-1" href="/about/">about</a> /
-  <a class="link-1" href="/resume/">resume</a>
-  <br>   
-  <a class="link-1" href="/technical/">technical</a> /
-  <a class="link-1" href="/photography/">photography</a> /
-  <a class="link-1" href="/art/">art</a> /
-  <a class="link-1" href="/blog/2016/04/02/abp-peets.html">writing</a>
-  <p>
-  <a href="mailto:weiwinnie.wu@gmail.com" class="ssk ssk-sm ssk-icon ssk-email" target="_blank"></a>
-  <a href="https://www.facebook.com/wwwu" class="ssk ssk-icon ssk-facebook" target="_blank"></a>
-  <a href="https://www.twitter.com/thewinniewu" class="ssk ssk-icon ssk-twitter" target="_blank"></a>
-  <a href="https://www.linkedin.com/in/thewinniewu" class="ssk ssk-icon ssk-linkedin" target="_blank"></a>
-  <a href="https://github.com/thewinniewu" class="ssk ssk-icon ssk-github" target="_blank"></a>
-</div>
-
+</head>
+<body>
+<div class="top-section">
+  <div class="top-section__logo">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1076 191.26"><g class="stroke-1"><path d="M1024.69,396.76a42.2,42.2,0,0,1-6.91-.57c-35.24-5.82-56.31-53.38-76.69-99.37-16.88-38.09-34.38-77.49-54.64-76.26-19.76,1.19-34.34,39.09-48.43,75.75-16.45,42.8-33.46,87.05-65,91.27-34,4.55-56.77-38.87-80.82-84.84-21.6-41.27-43.9-83.92-70.69-82.19-25.32,1.67-43.52,42.15-61.12,81.3C540.54,346,521.81,387.62,489,387.65h0c-33.3,0-53.71-44.76-73.44-88-17.72-38.85-36-79-59.53-79-22.49,0-40.07,37.91-57.08,74.57-19.71,42.51-40.09,86.46-74.65,92.4C180.79,395,134.6,338.89,83.08,216a7.5,7.5,0,0,1,13.84-5.8c59.46,141.89,100.69,166.74,124.81,162.59,26.8-4.61,45.5-44.93,63.59-83.93C305.17,246,323.93,205.57,356,205.57h0c15.37,0,29.39,9.6,42.86,29.34,11,16.17,20.83,37.67,30.32,58.47,17.76,39,36.14,79.27,59.79,79.27h0c23.11,0,40.69-39.13,57.7-76.95,19.42-43.2,39.5-87.86,73.82-90.11,36.49-2.4,61.14,44.67,85,90.2,20.6,39.37,41.92,80.09,65.53,76.93,22.75-3.05,38.83-44.88,53-81.79,16.52-43,32.13-83.57,61.53-85.35C916.26,203.73,935,246,954.8,290.75c17.9,40.37,38.18,86.14,65.42,90.64,23.7,3.91,64.41-22.58,123.82-171.11a7.5,7.5,0,0,1,13.92,5.58c-27.67,69.18-54.17,119-78.77,148C1060.67,385.73,1042.37,396.76,1024.69,396.76Z" transform="translate(-82.5 -205.5)"/></g></svg>
 
   </div>
+</div>
 
-  <!-- footer -->
+    <div class="content-section">
+<div class="index-wrapper">
+  <div class="hero-text">
+    <p>
+      <strong>Winnie Wu</strong> is currently a software engineer living in San Francisco and working at <strong>Square, Inc.</strong>
+    </p>
+  </div>
+</div>
+
+</div>
 
 <div class="footer">
   <span>&copy;</span>
@@ -71,8 +62,23 @@
   <br />
 </div>
 
-</div>
+<script>
+  function getRandomInt(min, max) {
+    return Math.floor(Math.random() * (max - min + 1) + min);
+  }
+
+  (function() {
+    let wave = document.querySelector(".stroke-1");
+    let links = document.querySelector("a");
+    setInterval(function() {
+      let color = `rgb(${getRandomInt(100, 255)},${getRandomInt(100,255)},${getRandomInt(100,255)})`;
+      wave.setAttribute("fill", color);
+      links.style.color = color;
+  }, 1000);
+  })();
+</script>
 
 
-  </body>
+
+</body>
 </html>

@@ -16,7 +16,9 @@ body {
   height: 100%;
   width: 100%;
   font-size: 14px;
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Inconsolata", monospace;
+  background-color: #222;
+  color: #fcfcfc;
 }
 
 blockquote {
@@ -70,7 +72,7 @@ img {
 
 .pnf-404-wrapper {
   position: absolute;
-  top:30%; 
+  top:30%;
   left: 0;
   padding: 12px 12px;
   height: 64px;
@@ -78,7 +80,7 @@ img {
   width: 100%;
   text-align: center;
 }
- 
+
 .footer {
   position: absolute;
   bottom: 0;
@@ -108,7 +110,7 @@ img {
   text-decoration: none;
   -webkit-transition: background-color .7s;
   -moz-transition: background-color .7s;
-  transition: background-color .7s;
+  transition: 0.5s ease-in-out;
 }
 
 .link-1:hover {
@@ -119,11 +121,37 @@ img {
 /* =======================
  * page layout
  * ======================= */
+
+.top-section {
+  padding: 40px auto;
+}
+
+.top-section__logo {
+  margin: 40px;
+  width: 250px;
+}
+
+.top-section__logo .stroke-1 {
+  transition: 0.5s ease-in-out;
+}
+
+.index-wrapper {
+  padding: 24px 56px;
+}
+
+.hero-text {
+  font-size: 24px;
+}
+
+.emoji-section {
+  font-family: sans-serif;
+}
+
 .page-wrapper:before {
   content: "";
   display: block;
   padding-top: 50%;
-  background-color: #f8f8f8;
+  background-color: #222;
 }
 
 @media (min-width: 769px) {
@@ -132,21 +160,19 @@ img {
   }
 
   .page-wrapper {
-    background-color: #f8f8f8;
+    background-color: #222;
   }
 }
 
 .page-container {
   position: relative;
   padding-top: 55px;
-  font-family: "Titillium Web", sans-serif;
   letter-spacing: .09em;
 }
 
 .page-container-content {
   position: relative;
   padding-top: 55px;
-  font-family: "Titillium Web", sans-serif;
   letter-spacing: .09em;
   overflow-y: scroll;
 }
@@ -185,7 +211,7 @@ img {
   .page-container {
     padding-top: 75px;
   }
-  
+
   .page-container:before {
     top: -75px;
     width: 200px;
@@ -210,7 +236,7 @@ img {
     min-width: 384.5px;
     background-color: #fff;
   }
-  
+
   .page-container-content {
     position: absolute;
     height: 90%;
@@ -550,7 +576,6 @@ img {
 /* index */
 .index-wrapper {
   padding-top: 15%;
-  text-align: center;
 }
 
 @media (min-width: 769px) {
