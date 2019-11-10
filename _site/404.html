@@ -11,22 +11,17 @@
 <link rel="shortcut icon" type="image/x-icon" href="" />
 <link rel="icon" type="image/x-icon" href="" />
 
-<!-- Social Share Kit CSS -->
-<link rel="stylesheet" href="/assets/css/social-share-kit.css" type="text/css">
-
-<link rel="stylesheet" href="/assets/css/style.css" type="text/css">
-
 <!-- RSS -->
 <link rel="alternate" type="application/rss+xml" title="Winnie Wu" href="/feed.xml" />
-
-<script src="/assets/js/jquery-1.11.3.min.js"></script>
-
 
 
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&display=swap" rel="stylesheet">
 
     <!-- stylesheet -->
+    <!-- Social Share Kit CSS -->
+    <link rel="stylesheet" href="/assets/css/social-share-kit.css" type="text/css">
+
     <link rel="stylesheet" href="/assets/css/solarized_dark.css" />
     <link rel="stylesheet" href="/assets/css/style.css" />
 
@@ -66,22 +61,6 @@ $(".page-container").css('display', 'none');
   <a class="link-1" href="/">Winnie Wu</a>
   <br />
 </div>
-
-<script>
-  function getRandomInt(min, max) {
-    return Math.floor(Math.random() * (max - min + 1) + min);
-  }
-
-  (function() {
-    let wave = document.querySelector(".stroke-1");
-    let links = document.querySelector("a");
-    setInterval(function() {
-      let color = `rgb(${getRandomInt(100, 255)},${getRandomInt(100,255)},${getRandomInt(100,255)})`;
-      wave.setAttribute("fill", color);
-      links.style.color = color;
-  }, 1000);
-  })();
-</script>
 
 
 

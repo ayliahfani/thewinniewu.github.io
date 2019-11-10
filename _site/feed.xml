@@ -3,10 +3,10 @@
   <channel>
     <title>Winnie Wu</title>
     <description>A portfolio</description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 10 Nov 2019 13:41:02 -0800</pubDate>
-    <lastBuildDate>Sun, 10 Nov 2019 13:41:02 -0800</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 10 Nov 2019 13:50:01 -0800</pubDate>
+    <lastBuildDate>Sun, 10 Nov 2019 13:50:01 -0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
 
       <item>
@@ -28,7 +28,7 @@
 
 &lt;p&gt;This afternoon, I popped into Peet’s to see if they stocked chocolate croissants after being unsuccessful at Crema (by the way, Crema’s website clearly prices their chocolate croissants at $3.15, which implies that they are stocked at least sometimes. I’ll have to check back again later I guess).&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/peets_pac.jpg&quot; alt=&quot;Peets chocolate croissant&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/img/posts/peets_pac.jpg&quot; alt=&quot;Peets chocolate croissant&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Even on the shelf, the croissant looked a loooot smaller (even smaller than Starbucks’). At least, labelled at $2.45, it was cheaper. Still, given that ABP’s croissant is 55% bigger than Peet’s, I wasn’t impressed. At the register, the price of the chocolate croissant actually came to $2.35, which was better for me but also somewhat confusing. I guess it’s a better 1:1 comparison with ABP’s though, since they were the same price in reality.&lt;/p&gt;
 
@@ -40,7 +40,7 @@
 &lt;li&gt; No embellishments (icing sugar or syrup :c)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/peets_pac2.jpg&quot; alt=&quot;Peets chocolate croissant&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/img/posts/peets_pac2.jpg&quot; alt=&quot;Peets chocolate croissant&quot; /&gt;
 Look how bready the inside of this ‘croissant’ is ._.&lt;/p&gt;
 
 &lt;p&gt;Nutritional info from &lt;a href=&quot;http://www.peets.com/media/wysiwyg/abg-nutritional-boston.pdf&quot;&gt;source&lt;/a&gt;&lt;/p&gt;
@@ -60,8 +60,8 @@ Look how bready the inside of this ‘croissant’ is ._.&lt;/p&gt;
 
 </description>
         <pubDate>Sat, 02 Apr 2016 00:00:00 -0700</pubDate>
-        <link>/blog/2016/04/02/abp-peets.html</link>
-        <guid isPermaLink="true">/blog/2016/04/02/abp-peets.html</guid>
+        <link>http://localhost:4000/blog/2016/04/02/abp-peets.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2016/04/02/abp-peets.html</guid>
 
         <category>croissants</category>
 
@@ -94,7 +94,7 @@ Basically inferior to its ABP equivalent in every way, so the hunt continues :/
 
 &lt;p&gt;Priced at $2.75 before tax, the Starbucks chocolate croissant is 12% more expensive than ABP’s. It is also less than 70% of the size of an ABP croissant. What a travesty :( Even the picture looks sad (&lt;a href=&quot;http://www.starbucks.com/menu/food/bakery/chocolate-croissant&quot;&gt;source&lt;/a&gt;):&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/starbucks_pac.jpg&quot; alt=&quot;Starbucks chocolate croissant&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/img/posts/starbucks_pac.jpg&quot; alt=&quot;Starbucks chocolate croissant&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;chocolate-croissant-80g&quot;&gt;Chocolate Croissant 80g&lt;/h2&gt;
 &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Calories 300&lt;/code&gt;
@@ -111,8 +111,8 @@ Basically inferior to its ABP equivalent in every way, so the hunt continues :/
 
 </description>
         <pubDate>Tue, 29 Mar 2016 00:00:00 -0700</pubDate>
-        <link>/blog/2016/03/29/abp-starbucks.html</link>
-        <guid isPermaLink="true">/blog/2016/03/29/abp-starbucks.html</guid>
+        <link>http://localhost:4000/blog/2016/03/29/abp-starbucks.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2016/03/29/abp-starbucks.html</guid>
 
         <category>croissants</category>
 
@@ -145,7 +145,7 @@ Basically inferior to its ABP equivalent in every way, so the hunt continues :/
 
 &lt;p&gt;For your information, here is the nutritional information about the ABP chocolate croissant (&lt;a href=&quot;http://aubonpain.com/menu/chocolate-croissant-0&quot;&gt;source&lt;/a&gt;).&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/posts/abp_pac.jpg&quot; alt=&quot;ABP's chocolate croissant!&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/img/posts/abp_pac.jpg&quot; alt=&quot;ABP's chocolate croissant!&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;pain-au-chocolat--38-oz-115g&quot;&gt;Pain au Chocolat / 3.8 oz (115g)&lt;/h2&gt;
 
@@ -162,8 +162,8 @@ Basically inferior to its ABP equivalent in every way, so the hunt continues :/
 &lt;br /&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Protein 8g&lt;/code&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 29 Mar 2016 00:00:00 -0700</pubDate>
-        <link>/blog/2016/03/29/abp-intro.html</link>
-        <guid isPermaLink="true">/blog/2016/03/29/abp-intro.html</guid>
+        <link>http://localhost:4000/blog/2016/03/29/abp-intro.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2016/03/29/abp-intro.html</guid>
 
         <category>croissants</category>
 
