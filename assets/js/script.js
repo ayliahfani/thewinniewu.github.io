@@ -4,10 +4,14 @@ function getRandomInt(min, max) {
 
 $(document).ready(function() {
   let wave = document.querySelector(".stroke-1");
-  let links = document.querySelector("a");
+  let links = document.querySelectorAll("a");
   setInterval(function() {
     let color = `rgb(${getRandomInt(100, 255)},${getRandomInt(100,255)},${getRandomInt(100,255)})`;
     wave.setAttribute("fill", color);
-    links.style.color = color;
-  }, 1000);
+    links.forEach(link => {
+      if (!link.classList.contains("a-no-color")) {
+        link.style.color = color
+      }
+    });
+  }, 3000);
 });

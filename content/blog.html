@@ -1,0 +1,19 @@
+---
+layout: page
+title: Blog
+permalink: /blog/
+---
+
+<p>
+  This is the blog index page
+<p>
+<ul>
+  {% for post in site.posts %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        <div class="post-preview">
+          {{ post.content | strip_html | truncatewords: 50 }}
+        </div>
+      </li>
+  {% endfor %}
+</ul>

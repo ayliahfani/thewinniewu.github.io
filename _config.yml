@@ -9,12 +9,15 @@ google_analytics: # google analytics id
 email: weiwinnie.wu@gmail.com
 
 #social media
-facebook: https://www.facebook.com/wwwu
+instagram: https://www.instagram.com/thewinniewu
 twitter: https://www.twitter.com/thewinniewu
 github: https://github.com/thewinniewu
 linkedin: https://www.linkedin.com/in/thewinniewu
 medium: https://www.medium.com/@WinnieWu
 
+sass:
+  sass_dir: assets/css
+  style: compressed
 
 # Content for about page.
 # Each paragraph will be a <p> tag which is inserted to about
@@ -36,16 +39,14 @@ medium: https://www.medium.com/@WinnieWu
 #         url: http://kkninjae.com/about/
 #         external: false
 
-# nav:
-#   - links:
-#     - name: about
-#       url: /about/
-#       external: false
-#       newline: true
-#     - name: resume
-#       url: /resume/
-#       external: false
-#       newline: false
+nav:
+  links:
+    - title: Blog
+      url: /blog/
+    - title: Projects
+      url: /projects/
+    - title: About
+      url: /about/
 #     - name: technical
 #       url: /technical/
 #       external: false

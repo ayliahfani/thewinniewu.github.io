@@ -25,13 +25,19 @@
     {% endif %}
 </head>
 <body>
-<div class="top-section">
-  <div class="top-section__logo">
-    {% include svg_logo.html %}
-  </div>
-</div>
+  <div class="main-container">
+    <div class="top-section">
+      <div class="top-section__logo">
+        {% include svg_logo.html %}
+      </div>
+      <div class="top-section__nav">
+        {% include nav.html %}
+      </div>
+    </div>
 
     {{ content }}
 
+    {% include footer.html %}
+  </div>
 </body>
 </html>

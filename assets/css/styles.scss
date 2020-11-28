@@ -1,5 +1,8 @@
 ---
 ---
+
+$color-transition-time: 1.5s;
+$page-side-margin: 40px;
 /* =======================
  * basic
  * ======================= */
@@ -70,6 +73,10 @@ img {
   max-width: 100%;
 }
 
+.main-container {
+  margin: 20px $page-side-margin;
+}
+
 .pnf-404-wrapper {
   position: absolute;
   top:30%;
@@ -82,14 +89,31 @@ img {
 }
 
 .footer {
+  display: flex;
   position: absolute;
   bottom: 0;
-  left: 0;
-  padding: 12px 12px;
   height: 64px;
-  width: 100%;
+  width: calc(100% - 2 * $page-side-margin);
   line-height: 20px;
   text-align: right;
+}
+
+.social-links {
+  align-self: center; 
+}
+
+.social-links .ssk.ssk-custom-color{
+  color: #999999;
+  transition: 0.2s ease-in-out;
+}
+
+.social-links .ssk.ssk-custom-color:hover{
+  color: #ffffff;
+}
+
+.footer-credits {
+  align-self: center; 
+  margin-left: auto;
 }
 
 .footer-clear {
@@ -110,29 +134,42 @@ a,.link-1 {
   text-decoration: none;
   -webkit-transition: background-color .5s;
   -moz-transition: background-color .5s;
-  transition: 0.5s ease-in-out;
+  transition: $color-transition-time ease-in-out;
 }
 
 a:hover {
   background-color: #000
 }
 
-
 /* =======================
  * page layout
  * ======================= */
 
 .top-section {
-  padding: 40px auto;
+  display: flex;
 }
 
 .top-section__logo {
-  margin: 40px;
   width: 150px;
+  align-self: center;
 }
 
 .top-section__logo .stroke-1 {
-  transition: 0.5s ease-in-out;
+  transition: $color-transition-time ease-in-out;
+}
+
+.top-section__nav {
+  margin-left: auto;
+  align-self: center;
+  font-size: 1.4em;
+}
+
+.top-section__nav  ul {
+  list-style-type: none;
+}
+
+.top-section__nav ul li {
+  display: inline-block;
 }
 
 .index-wrapper {
@@ -166,105 +203,21 @@ a:hover {
 
 .page-container {
   position: relative;
-  padding-top: 55px;
-  letter-spacing: .09em;
+  padding: 32px 0;
 }
 
-.page-container-content {
-  position: relative;
-  padding-top: 55px;
-  letter-spacing: .09em;
-  overflow-y: scroll;
+.post-preview {
+  background-color: green;
 }
-
-.page-container:before {
-  content: "";
-  position: absolute;
-  top: -55px;
-  left:0;
-  right:0;
-  margin-left:auto;
-  margin-right:auto;
-    background-size: cover;
-}
-
-
-
-.avatar {
-  content: "";
-  position: absolute;
-  top: -55px;
-  left:0;
-  right:0;
-  margin-left:auto;
-  margin-right:auto;
-  border: 5px solid #fff;
-  border-radius: 50%;
-  width: 120px;
-  height: 120px;
-  background-image: url({{ site.avatar }});
-  background-size: cover;
-}
-
 
 @media (min-width: 600px) {
   .page-container {
-    padding-top: 75px;
   }
-
-  .page-container:before {
-    top: -75px;
-    width: 200px;
-    height: 200px;
-  }
-
-  .avatar {
-    top: -120px;
-    width: 230px;
-    height: 230px;
-  }
-
-  }
+}
 
 @media (min-width: 769px) {
   .page-container {
-    position: absolute;
-    height: 100%;
-    right: 0;
-    padding-top: 0;
-    width: 80%;
-    min-width: 384.5px;
-    background-color: #fff;
   }
-
-  .page-container-content {
-    position: absolute;
-    height: 90%;
-    right: 0;
-    padding-top: 0;
-    width: 100%;
-    background-color: rgba(0,0,0,0);
-    min-width: 384.5px;
-    overflow-y: scroll;
-  }
-
-
-
-.page-container:before {
-    top: 150px;
-    left: -100px;
-    margin-right: 0;
-    margin-left: 0;
-  }
-
-
-  .avatar {
-    top: 150px;
-    left: -100px;
-    margin-right: 0;
-    margin-left: 0;
-  }
-
 }
 
 
@@ -604,31 +557,6 @@ a:hover {
 }
 
 /* about */
-.about-wrapper {
-  margin-right: auto;
-  margin-left: auto;
-  padding-top: 24px;
-  width: 85%;
-  }
-
-@media (min-width: 600px) {
-  .about-wrapper {
-    padding-top: 66px;
-    width: 50%;
-    left: 30%;
-  }
-}
-
-@media (min-width: 769px) {
-  .about-wrapper{
-    position: absolute;
-    top: 40%;
-    right: 0;
-    padding-top: 0;
-  }
-}
-
-/* about */
 .content-wrapper {
   margin-right: auto;
   margin-left: auto;
@@ -651,12 +579,4 @@ a:hover {
     right: 0;
     padding-top: 0;
   }
-}
-
-.grid-table {
-    width: 100%;
-    text-align: center;
-    vertical-align: center;
-    padding: 15px;
-    min-height: 500px;
 }
