@@ -3,6 +3,10 @@
 
 $color-transition-time: 1.5s;
 $page-side-margin: 40px;
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+$header-height: 40px;
+$footer-height: 64px;
 /* =======================
  * basic
  * ======================= */
@@ -18,10 +22,10 @@ body {
   padding: 0;
   height: 100%;
   width: 100%;
-  font-size: 14px;
-  font-family: "Inconsolata", monospace;
-  background-color: #222;
-  color: #fcfcfc;
+  font-size: 16px;
+  font-family: "Karla", sans-serif;
+  background-color: #fff;
+  color: #222;
 }
 
 blockquote {
@@ -56,7 +60,7 @@ code {
 }
 
 h1 {
-  font-size: 18px;
+  font-size: 1.6em;
 }
 
 h2,
@@ -74,7 +78,10 @@ img {
 }
 
 .main-container {
-  margin: 20px $page-side-margin;
+  padding: 20px $page-side-margin;
+  margin: auto;
+  min-height: 100vh;
+  max-width: 900px;
 }
 
 .pnf-404-wrapper {
@@ -90,12 +97,8 @@ img {
 
 .footer {
   display: flex;
-  position: absolute;
-  bottom: 0;
-  height: 64px;
-  width: calc(100% - 2 * $page-side-margin);
+  height: $footer-height;
   line-height: 20px;
-  text-align: right;
 }
 
 .social-links {
@@ -108,7 +111,7 @@ img {
 }
 
 .social-links .ssk.ssk-custom-color:hover{
-  color: #ffffff;
+  color: #222;
 }
 
 .footer-credits {
@@ -116,29 +119,19 @@ img {
   margin-left: auto;
 }
 
-.footer-clear {
-  position: relative;
-  margin-bottom: -64px;
-  min-height: 100%;
-}
-
-.footer-clear:after {
-  content: "";
-  display: block;
-  height: 64px;
-}
-
 a,.link-1 {
-  padding: 2px;
+ // font-family: "Inconsolata", monospace;
   color: #6599ff;
   text-decoration: none;
   -webkit-transition: background-color .5s;
   -moz-transition: background-color .5s;
-  transition: $color-transition-time ease-in-out;
+  transition: background-color .5s ease-in-out,
+              color $color-transition-time ease-in-out;
 }
 
 a:hover {
-  background-color: #000
+  background-color: #222;
+  color: #fff;
 }
 
 /* =======================
@@ -147,6 +140,7 @@ a:hover {
 
 .top-section {
   display: flex;
+  height: $header-height;
 }
 
 .top-section__logo {
@@ -170,14 +164,18 @@ a:hover {
 
 .top-section__nav ul li {
   display: inline-block;
+  padding: 0 2px;
 }
 
-.index-wrapper {
+.content-section {
+  height: auto;
+  min-height: calc(90vh - #{$header-height} - #{$footer-height});
   padding: 24px 56px;
 }
 
 .hero-text {
   font-size: 24px;
+  align-self: center;
 }
 
 .emoji-section {
@@ -207,7 +205,11 @@ a:hover {
 }
 
 .post-preview {
-  background-color: green;
+  margin-top: 20px;
+}
+
+.post-date {
+  font-weight: $font-weight-bold;
 }
 
 @media (min-width: 600px) {
@@ -220,6 +222,18 @@ a:hover {
   }
 }
 
+.blog-section {
+  margin: 0 auto;
+}
+
+.blog-posts {
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+
+.blog-post-link {
+  font-size: 1.4em;
+}
 
 /* =======================
  * post layout
@@ -255,140 +269,8 @@ a:hover {
   }
 }
 
-.post-archive-icon {
-  position: relative;
-  height: 4px;
-  width: 20px;
-  background-color: #000;
-}
-
-.post-archive-icon:before,
-.post-archive-icon:after {
-  content: "";
-  position: absolute;
-  width: 20px;
-  height: 4px;
-  background-color: #000;
-  -webkit-transition: -webkit-transform 1s;
-  -moz-transition: -moz-transform 1s;
-  transition: transform 1s;
-}
-
-.post-archive-icon:before {
-  top: -8px;
-}
-
-.post-archive-icon:after {
-  top: 8px;
-}
-
-.post-archive-triggered.post-archive-icon:before {
-  -webkit-transform: translate(-6px, 5px) rotate(-45deg) scaleX(0.5);
-  -moz-transform: translate(-6px, 5px) rotate(-45deg) scaleX(0.5);
-  transform: translate(-6px, 5px) rotate(-45deg) scaleX(0.5);
-}
-
-.post-archive-triggered.post-archive-icon:after {
-  -webkit-transform: translate(-6px, -5px) rotate(45deg) scaleX(0.5);
-  -moz-transform: translate(-6px, -5px) rotate(45deg) scaleX(0.5);
-  transform: translate(-6px, -5px) rotate(45deg) scaleX(0.5);
-}
-
 /* post archive */
 .post-archive {
-  position: absolute;
-  left: 100%;
-  background-color: rgba(255, 255, 255, 0.4);
-  width: 100%;
-  height: 100%;
-  -webkit-transition: left .7s;
-  -moz-transition: left .7s;
-  transition: left .7s;
-}
-
-@media (min-width: 600px) {
-  .post-archive {
-    margin-left: 10%;
-    width: 80%;
-  }
-}
-
-@media (min-width: 769px) {
-  .post-archive {
-    position: fixed;
-    top: 0;
-    left: 0;
-    margin-left: 0;
-    background-color: #fff;
-    width: 340px;
-  }
-}
-
-.post-archive-triggered.post-archive {
-  left: 0;
-}
-
-.post-archive-iterms {
-  background-color: #fff;
-}
-
-.post-archive-iterm {
-  display: block;
-  position: relative;
-  margin: 0 auto;
-  padding: 12px 0;
-  width: 300px;
-  line-height: 20px;
-  text-decoration: none;
-  color: #000;
-}
-
-.post-archive-iterm:before {
-  content: "";
-  position: absolute;
-  top: 32px;
-  left: 96.4px;
-  width: 3px;
-  height: 100%;
-  background-color: #b2ccff;
-  z-index: 1;
-}
-
-.post-archive-date {
-  display: inline-block;
-  float: left;
-  width: 90px;
-}
-
-.post-archive-title {
-  display: inline-block;
-  position: relative;
-  padding-left: 20px;
-  width: 210px;
-}
-
-.post-archive-title:before {
-  content: "";
-  position: absolute;
-  top: -1px;
-  left: -2px;
-  background-color: #b2ccff;
-  border-radius: 50%;
-  border: 5px solid #fff;
-  width: 10px;
-  height: 10px;
-  -webkit-transition: background-color .7s;
-  -moz-transition: background-color .7s;
-  transition: background-color .7s;
-  z-index: 2;
-}
-
-.post-archive-iterm:hover .post-archive-title:before {
-  background-color: #92cd00;
-}
-
-.post-archive-title.checked:before {
-  background-color: #6599ff;
 }
 
 /* post */
@@ -404,22 +286,13 @@ a:hover {
 }
 
 .post-content {
-  padding-right: 18.2px;
-  padding-left: 18.2px;
+  padding-right: 18px;
+  padding-left: 18px;
 }
 
 .post-nav {
-  border-top: 1px solid #e6e6e6;
-  border-bottom: 1px solid #e6e6e6;
   padding: 23.8px;
   text-align: center;
-}
-
-.post-nav-sep {
-  margin: 14px auto;
-  width: 100px;
-  height: 2px;
-  background-color: #e6e6e6;
 }
 
 .post-nav-previous,
@@ -449,16 +322,12 @@ a:hover {
   .post-header,
   .post-content,
   .post-nav,
-  .post-comment {
+  .post-comment,
+  .post-archive {
     margin-right: auto;
     margin-left: auto;
     width: 80%;
     min-width: 300px;
-    background-color: #fff;
-  }
-
-  .post-header {
-    text-align: center;
   }
 
   .post-nav,
@@ -528,19 +397,8 @@ a:hover {
  * ======================= */
 /* index */
 .index-wrapper {
-  padding-top: 15%;
-}
-
-@media (min-width: 769px) {
-  .index-wrapper {
-    position: absolute;
-    top: 40%;
-    right: 0;
-    left: 0;
-    margin-right: auto;
-    margin-left: auto;
-    padding-top: 0;
-  }
+  display: flex;
+  height: calc(80vh - #{$header-height} - #{$footer-height});
 }
 
 /* navigation */

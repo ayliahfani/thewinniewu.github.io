@@ -4,16 +4,22 @@ title: Blog
 permalink: /blog/
 ---
 
-<p>
-  This is the blog index page
-<p>
-<ul>
+<div class="blog-section">
+<ul class="blog-posts">
   {% for post in site.posts %}
       <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>
+        <div class="post-date">
+          {{ post.date | date: '%B %d, %Y' }}
+        </div>
+        <a class="blog-post-link" href="{{ post.url }}">
+          {{ post.title }}
+        </a>
         <div class="post-preview">
-          {{ post.content | strip_html | truncatewords: 50 }}
+          <p>
+            {{ post.content | strip_html | truncatewords: 100 }}
+          </p>
         </div>
       </li>
   {% endfor %}
 </ul>
+</div>
